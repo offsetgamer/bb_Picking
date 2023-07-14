@@ -1,6 +1,28 @@
 Config = {}
 
 Config.collectables = {
+    ['rdr2_bush_beavertailcactus'] = { -- prop/item found in game 
+        Label = "Bush", -- prop/item name on screen to 'pick''
+        items = {
+            ['Creekplum'] = 2,
+            ['Creekplum'] = 2,
+            ['Creekplum'] = 2,
+            ['Creekplum'] = 2,
+            ['Creekplum'] = 2,
+            ['Creekplum'] = 2,
+            ['Creekplum'] = 2,            --Number of items that can be max found
+			['Creekplum'] = 2,
+			['Creekplum'] = 2,
+			['Creekplum'] = 2,
+            ['fibers'] = 3,
+			['fibers'] = 3,
+			['fibers'] = 3,
+			['fibers'] = 3,
+			['fibers'] = 3,
+			['fibers'] = 3,
+			['peyote'] = 1,
+        }
+    },
     ['rdr_bush_neat_bb_sim'] = { -- prop/item found in game 
         Label = "Bush", -- prop/item name on screen to 'pick''
         items = {
@@ -27,6 +49,13 @@ Config.collectables = {
             ['fibers'] = 3,
         }
     },
+    ['rdr_bush_wandering_aa_sim'] = {
+        Label = "Bush",
+        items = {
+            ['cocoa'] = 5,
+            ['cocoaseeds'] = 2,
+       }
+    },
     ['rdr_bush_ficus_aa_sim'] = {
         Label = "Bush",
         items = {
@@ -41,12 +70,6 @@ Config.collectables = {
         Label = "Bush",
         items = {
             ['coffeebeans'] = 5,
-        }
-    },
-    ['crp_sugarcane_ab_sim'] = {
-        Label = "Bush",
-        item = {
-            ['sugarcane'] = 5,
         }
     },
     ['rdr_bush_sumac_aa_sim'] = {
